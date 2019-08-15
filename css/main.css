@@ -16,6 +16,27 @@
   z-index: -1;
   background: rgba(68, 68, 68, 0.8);
 }
+.menu-btn {
+  position: absolute;
+  z-index: 3;
+  right: 35px;
+  top: 35px;
+  cursor: pointer;
+  transition: all 0.8s ease-out;
+}
+.menu-btn .btn-line {
+  width: 28px;
+  height: 3px;
+  margin: 0 0 5px 0;
+  background: white;
+  transition: all 0.8s ease-out;
+}
+.menu-btn.close {
+  transform: rotate(180deg);
+}
+.menu-btn.close .btn-line:nth-child(1) {
+  background-color: red;
+}
 * {
   box-sizing: border-box;
 }
@@ -68,7 +89,7 @@ a {
 header {
   position: fixed;
   z-index: 2;
-  widows: 100%;
+  width: 100%;
 }
 .text-secondary {
   color: #eece1a;

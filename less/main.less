@@ -1,4 +1,6 @@
-@import 'config';
+@import (less) "config.less";
+@import (less) "menu.less";
+
 * {
     box-sizing: border-box;
 }
@@ -37,7 +39,7 @@ a {
 header {
     position: fixed;//menu stay at top
     z-index: 2;
-    widows: 100%;
+    width: 100%;
 }
 .text-secondary {
     color: @secondary-color;
