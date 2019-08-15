@@ -1,0 +1,22 @@
+{
+  "name": "preprocessing-i",
+  "version": "1.0.0",
+  "description": "Responsive Portofolio",
+  "main": "index.js",
+  "scripts": {
+    "less": "less-watch-compiler less css main.less"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/developer3027-lambda/Preprocessing-I.git"
+  },
+  "author": "Developer3027",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/developer3027-lambda/Preprocessing-I/issues"
+  },
+  "homepage": "https://github.com/developer3027-lambda/Preprocessing-I#readme",
+  "devDependencies": {
+    "less": "^3.9.0"
+  }
+}
